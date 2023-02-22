@@ -2,12 +2,11 @@
   "name": "vue3-template",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "eslint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "eslint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore --fix src",
     "prettier": "prettier --write",
     "commit": "git-cz"
   },
