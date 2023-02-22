@@ -1,4 +1,5 @@
 module.exports = {
+  scopes: [],
   types: [
     { value: 'feature', name: 'feature:  增加新功能' },
     { value: 'bug', name: 'bug:      测试反馈bug列表中的bug号' },
@@ -31,6 +32,9 @@ module.exports = {
     confirmCommit: '确认使用以上信息提交？(y/n/e/h)',
   },
   allowCustomScopes: true,
+  allowEmptyScopes: true,
+  emptyScopesAlias: '跳过',
+  defaultScope: '',
   skipQuestions: ['body', 'footer'],
   subjectLimit: 72,
 }
